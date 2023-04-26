@@ -1,0 +1,6 @@
+PSET 1
+Author: Christopher Kang collaborated with YENKAI HUANG 
+
+Prompt: Briefly describe the utility and limitations of region growing in this context.
+
+	The utility of region growing in this context is that it grows the same color in the neighboring pixels if they have a similar RGB value. There are a couple of limitations: 1. Regions that appear to be neighboring with the same color as not be due to microscopic pixels, disconnecting regions that look like they should be together. 2. It is very difficult to click on an individual pixel and select one because pixels are very small. 3. The lighting/ web cam issues can cause the regions in the WebCam to change. 4. The program could be faster!
